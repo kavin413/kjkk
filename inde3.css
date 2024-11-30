@@ -1,0 +1,22 @@
+#grad_1 {
+    height: 900px;
+    width: 900px;
+    background-color: aquamarine;
+    animation-name: example;
+    animation-duration: 4s;
+    text-align: center;
+}
+
+@keyframes example {
+    0% {
+        background-image: url("https://media.istockphoto.com/id/181668903/vector/shiny-red-traditional-cricket-ball.jpg?s=612x612&w=0&k=20&c=FrODP12OH_uCIhzpa9oChPu6l--5h5BBLgnkJy9n5sg=");
+    }
+
+    50% {
+        background-image: url("https://cdn.magicdecor.in/com/2024/05/22173454/Football-Abstract-Design-Wallpaper-Mural-710x488.jpg");
+    }
+
+    100% {
+        background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/200px-FC_Barcelona_%28crest%29.svg.png");
+    }
+}
