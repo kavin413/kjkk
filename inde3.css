@@ -5,6 +5,7 @@
     animation-name: example;
     animation-duration: 4s;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 @keyframes example {
